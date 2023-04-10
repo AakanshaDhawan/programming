@@ -5,7 +5,7 @@ class Node:
         self.right = None
 
 class Tree:
-    def __init__(self,data) -> None:
+    def __init__(self,data = None) -> None:
         self.root = Node(data)
 
     def print_tree(self,style):
